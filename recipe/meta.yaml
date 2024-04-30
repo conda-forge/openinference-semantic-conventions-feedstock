@@ -1,5 +1,5 @@
 {% set name = "openinference-semantic-conventions" %}
-{% set version = "0.1.5" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openinference_semantic_conventions-{{ version }}.tar.gz
-  sha256: d674b25044ca251f276c9f6230db18979c833d06e4998223437746dbba86aa3f
+  sha256: d8da5341940fc35f4a07a8196fafb8a8d61031178a8e06700c05d4e10e89fc51
 
 build:
   noarch: python
